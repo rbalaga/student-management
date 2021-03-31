@@ -32,7 +32,7 @@ which will take care of getting students details from database and sending back 
 * `renderStudents`  will displays the students list on the page.
 
 
-### 2. Registering new students to the database.
+### `2. Registering new students to the database.`
 ####	`Server code`
 Navigate to `Routes` > `students.js` file and look for  `insertNewStudentRecords` which is having implementation for inserting new student details to database and responding back to client.
 which will take care of inserting new student details to database and sending success message back to frontend application.
@@ -41,7 +41,7 @@ which will take care of inserting new student details to database and sending su
 * Navigate to `src`>`Register.jsx` file.  it is having implementation for registration form at the end of the file.  which is been mentioned in `return` value.
 * `sendRegistration` method  will sends new student details to server and makes a POST method request.
 
-### 3. Updating the existing students details. (on double clicking student).
+### `3. Updating the existing students details. (on double clicking student).`
 ####	`Server code`
 Navigate to `Routes` > `students.js` file and look for `updateStudentDetails` function
 which will take care of updating the student records new student details to database and sending success message back to frontend application.
@@ -50,7 +50,7 @@ which will take care of updating the student records new student details to data
 * Navigate to `src`>`UpdateStudent.jsx` file. it is having implementation for update form  which is been mentioned in `return` value.
 * `sendUpdateStudentDetails` method  will sends the updated details to server and makes a PUT method request.
 
-### 4. Deleting students details.
+### `4. Deleting students details.`
 ####	`Server code`
 Navigate to `Routes` > `students.js` file and look for `deleteStudentDetails` function
 which will take care of deleting the student record based on the `id` provided from url parameter. details will be sent to database and then sending success message back to frontend application.
